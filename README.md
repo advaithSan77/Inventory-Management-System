@@ -1,4 +1,7 @@
+Project Overview:
+
 The Inventory Management System can be used to keep a record of the inventory of a store and also the sales made by it. It consists of a records.json file that keeps track of the inventory and a sales.json file that keeps track of all the sales made by the store.
+
 First an initial records dictionary is created with 31 items. It consists of items such as Dairy Milk, Lays, Coke, etc. They have keys ranging from '1000' to '1030' and this can be added to. Each item has an ID key and its properties are stored in an internal dictionary which are – name, price, quantity, category and brand.
 Then an empty sales dictionary is initialized and the records and sales dictionaries are written in created records.json and sales.json files respectively. 
 
@@ -24,5 +27,33 @@ If lis turns out empty then the customer is asked whether he/she would like to p
 
 Then the records.json file is opened and the updated records dictionary is written to this file.
 Then the sales done can be viewed using the view_sales() function.
+
+Features:
+
+1. The available items is displayed before purchase and can be displayed manually.
+2. While displaying these items if the product quantity is 0 then it displays 'Out of stock'.
+3. It displays the bill after purchase.
+4. It displays the sales records along with the transaction ID and time of purchase.
+5. Multiple items can be added to the inventory along with multiple quantities of each.
+6. While adding items to the inventory, it inputs the item name and checks if it is already present in  the inventory.If it is present then it adds to the already present quantity. If not then it assigns a new item ID and adds all properties which are inputted.
+7. Multiple items can be purchased at one time and multiple quantities of each item can be purchased.
+8. While purchasing if the customer enters an invalid number of items then the customer is asked to enter a valid number again.
+9. If the customer enters and invalid item ID then the customer is asked to enter a valid ID again.
+10. If the customer enters the ID of a product which is out of stock, then this is displayed on the screen. It also displays the available items of similar category for the customer to purchase. If no items of the similar category are available then that is also displayed.
+11. If the customer enter a greater quantity of an item than what is present in the inventory then the appropriate message is displayed along with an option to purchase that remaining quantity.
+12. The program uses a list to store purchased items' IDs and a dictionary to store quantity of each item purchased.
+13. If somehow the customer's cart turns out empty then it is inquired whether the customer wants to place another order and if yes then another order is placed.
+
+
+About:
+ 
+Advaith Santhosh
+MVJ College of Engineering 
+Bangalore
+
+
+Contact: 
+
+Linkedin: https://www.linkedin.com/in/advaith-santhosh
 
 
