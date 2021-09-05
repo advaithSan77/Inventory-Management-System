@@ -1,4 +1,4 @@
-The Inventory Management System is used to keep a record of the inventory of a store and also the sales made by it. It consists of a records.json file that keeps track of the inventory and a sales.json file that keeps track of all the sales made by the store.
+The Inventory Management System can be used to keep a record of the inventory of a store and also the sales made by it. It consists of a records.json file that keeps track of the inventory and a sales.json file that keeps track of all the sales made by the store.
 First an initial records dictionary is created with 31 items. It consists of items such as Dairy Milk, Lays, Coke, etc. They have keys ranging from '1000' to '1030' and this can be added to. Each item has an ID key and its properties are stored in an internal dictionary which are – name, price, quantity, category and brand.
 Then an empty sales dictionary is initialized and the records and sales dictionaries are written in created records.json and sales.json files respectively. 
 
